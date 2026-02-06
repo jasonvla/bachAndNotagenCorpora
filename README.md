@@ -14,3 +14,4 @@ development of usable code to extract certain data of both the real bach chorale
 - Evaluate ranges of voices during a piece / a phrase
 - Analyze how modulation works (are patterns recognizable, ...)
 - Phrases starting on upbeat / downbeat, ...
+- Usage of neapolitan chords
