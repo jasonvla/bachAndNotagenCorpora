@@ -1,4 +1,5 @@
 development of usable code to extract certain data of both the real bach chorale corpus in music21 and a custom-generated notagen corpus with a samplesize of 100 pieces.
+More NotaGen-pieces need to be generated in the future (at least a few hundred ones, even better maybe 1e3, 1e4,...)
 
 ## So far:
 
@@ -15,3 +16,4 @@ development of usable code to extract certain data of both the real bach chorale
 - Analyze how modulation works (are patterns recognizable, ...)
 - Phrases starting on upbeat / downbeat, ...
 - Usage of neapolitan chords
+- Extract and compoare the bass parts
