@@ -17,3 +17,8 @@ More NotaGen-pieces need to be generated in the future (at least a few hundred o
 - Phrases starting on upbeat / downbeat, ...
 - Usage of neapolitan chords
 - Extract and compoare the bass parts
+
+## Questions
+- What are Segments? (see *music21.figuredBass.segment*)
+- *music21.figuredBass.possibility.parallelFifths(possibA, possibB)* => what are possibilities in music21?
+- *music21.voiceLeading*
