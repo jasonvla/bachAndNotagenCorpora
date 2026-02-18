@@ -7,7 +7,8 @@ More NotaGen-pieces need to be generated in the future (at least a few hundred o
 - Extract Time Signatures (1st in the piece)
 - Count Dominant-Seventh Chords
 - Count Key Signatures
-
+- Extract percentage of sharp/flat notes employed within a chorale => detect key-missclassifications from the algorithm
+- Relation between ascending and descending notes
 ## TODO
 - add whether time signatures change during a piece
 - respect modes (lydian, dorian, ...)
