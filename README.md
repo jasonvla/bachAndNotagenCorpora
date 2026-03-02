@@ -9,6 +9,10 @@ More NotaGen-pieces need to be generated in the future (at least a few hundred o
 - Count Key Signatures
 - Extract percentage of sharp/flat notes employed within a chorale => detect key-missclassifications from the algorithm
 - Relation between ascending and descending notes
+
+- Interesting: Chord-Name-Distribution among the corpora are quite similar (=> AI learns chord-patterns?)
+- Looking at measure / note relation: Standard deviation (of the notes) in the bach corpus is way higher, but averages are quite similar!
+
 ## TODO
 - add whether time signatures change during a piece
 - respect modes (lydian, dorian, ...)
