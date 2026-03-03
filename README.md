@@ -6,27 +6,28 @@ More NotaGen-pieces need to be generated in the future (at least a few hundred o
 
 ### Key Extraction
 - determine key of chorale by applying music21's key finding algorithm.
+- visualization of key distribution within the corpora
 
 ### Time Signature Extraction
-- the first one
+- always the first one in each piece
 
 ### Melody Extraction
-  - transpose everything to C major / a minor
-  - take only 10 first notes of Soprano
-  - convert to midi pitches
-  - compare melody differences with a heatmap
+- transpose everything to C major / a minor
+- take n first notes of Soprano (currently n=10)
+- convert to midi pitches
+- compare differences with a heatmap
 
 ### Chords
+- Dominant-seventh chords (absolute counts + relative)
 
-#### Count Dominant-seventh-chords
-
-#### Chord Name Extraction
+### Chord Name Extraction
 - Chordify the score
-- Find all chord names (Counter)
+- Find all chord names with *chord.commonName* (in a Counter)
 - Interesting: Chord-Name-Distribution among the corpora are quite similar (=> AI learns chord-patterns?)
 
 ### Accidental Extraction
-- Extract percentage of sharp/flat notes employed within a chorale => detect key-missclassifications
+- Extract percentage of sharp/flat notes employed within a chorale (in relation to all notes in the piece)
+
 
 ### Ascending/Descending Notes
 - see the relative proportion of ascending/descending notes within the corpus
@@ -38,8 +39,10 @@ More NotaGen-pieces need to be generated in the future (at least a few hundred o
 - Standard deviation (regarding the amount of notes in a piece) in the bach corpus is way higher, but averages are quite similar!
 
 ## TODO
+
+Depending on how we're continuing after the explorative phase, ideas could be:
+
 - add whether time signatures change during a piece
-- respect modes (lydian, dorian, ...)
 - Count Parallel fifths
 - Evaluate ranges of voices during a piece / a phrase
 - Extract and compare the bass parts
