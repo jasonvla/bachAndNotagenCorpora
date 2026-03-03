@@ -2,7 +2,7 @@ development of usable code to extract certain data of both the real bach chorale
 
 More NotaGen-pieces need to be generated in the future (at least a few hundred ones, even better maybe 1e3, 1e4,...)
 
-## So far:
+## Current state:
 
 ### Key Extraction
 - determine key of chorale by applying music21's key finding algorithm.
