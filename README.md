@@ -9,7 +9,7 @@ More NotaGen-pieces need to be generated in the future (at least a few hundred o
 - visualization of key distribution within the corpora
 
 ### Time Signature Extraction
-- always the first one in each piece
+- always the first one in each piece (only a handful pieces change TS during the piece)
 
 ### Melody Extraction
 - transpose everything to C major / a minor
@@ -40,7 +40,7 @@ More NotaGen-pieces need to be generated in the future (at least a few hundred o
 
 ## TODO
 
-Depending on how we're continuing after the explorative phase, ideas could be:
+Some ideas:
 
 - add whether time signatures change during a piece
 - Count Parallel fifths
