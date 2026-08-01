@@ -1,9 +1,12 @@
-*eval_ICCCM.ipynb*
-evaluations of the data gained from the experiment which was distributed online. 
+## 📌 Repository Overview
 
+This repository is organized as follows:
 
-*eval_OpenDayPoster.ipynb*
-development of usable code to extract certain data of both the real bach chorale corpus in music21 and a custom-generated notagen corpus with a samplesize of 100 pieces.
+* **`notagen-pieces/`**: contains chorales generated with NotaGen.
+* **`Open_Day_eval/`**: data and evaluation results gathered during the Open Day experiment.
+* **`poster_ICCCM/`**: analysis notebooks and PDFs for the research poster presented at ICCCM.
+
+---
 
 ## Current state:
 
