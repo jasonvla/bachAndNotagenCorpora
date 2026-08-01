@@ -1,5 +1,7 @@
 ## 📌 Repository Overview
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/jasonvla/bachAndNotagenCorpora)
+
 This repository is organized as follows:
 
 * **`notagen-pieces/`**: contains chorales generated with NotaGen.
