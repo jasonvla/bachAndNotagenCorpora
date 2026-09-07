@@ -1,0 +1,122 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{notagen}{misc}{}{}
+      \name{author}{10}{}{%
+        {{hash=4012e1e70285ed901203347433456c90}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yashan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9717b7f41f7dd29e762f5ab5ded649d1}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Shangda},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ad311bd7e6e476a5ba03db9f336e1cdb}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jianhuai},
+           giveni={J\bibinitperiod}}}%
+        {{hash=103d0b97306a2a5c1940f7540c3bd49b}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Xingjian},
+           giveni={X\bibinitperiod}}}%
+        {{hash=5b2b86500d900eca4d6dc878025583af}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Yueqi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5adc42651e1ebb5c4dd68eb12d47fad6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yongxin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=48a8e571b1017b1b93ae0ecb16c60b1a}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a371ea5168387662cf603309367909c7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaobing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=e5059546a94ddc303eaa2dfd70c25157}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=faa6f5041a22004ca0dd547c03476790}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Maosong},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{8b01d665d09975f3e5f445936773c36f}
+      \strng{fullhash}{e31df239a715becabffdef6e11f4731b}
+      \strng{fullhashraw}{e31df239a715becabffdef6e11f4731b}
+      \strng{bibnamehash}{e31df239a715becabffdef6e11f4731b}
+      \strng{authorbibnamehash}{e31df239a715becabffdef6e11f4731b}
+      \strng{authornamehash}{8b01d665d09975f3e5f445936773c36f}
+      \strng{authorfullhash}{e31df239a715becabffdef6e11f4731b}
+      \strng{authorfullhashraw}{e31df239a715becabffdef6e11f4731b}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We introduce NotaGen, a symbolic music generation model aiming to explore the potential of producing high-quality classical sheet music. Inspired by the success of Large Language Models (LLMs), NotaGen adopts pre-training, fine-tuning, and reinforcement learning paradigms (henceforth referred to as the LLM training paradigms). It is pre-trained on 1.6M pieces of music in ABC notation, and then fine-tuned on approximately 9K high-quality classical compositions conditioned on "period-composer-instrumentation" prompts. For reinforcement learning, we propose the CLaMP-DPO method, which further enhances generation quality and controllability without requiring human annotations or predefined rewards. Our experiments demonstrate the efficacy of CLaMP-DPO in symbolic music generation models with different architectures and encoding schemes. Furthermore, subjective A/B tests show that NotaGen outperforms baseline models against human compositions, greatly advancing musical aesthetics in symbolic music generation.}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arXiv}
+      \field{month}{3}
+      \field{number}{arXiv:2502.18008}
+      \field{shorttitle}{{{NotaGen}}}
+      \field{title}{{{NotaGen}}: {{Advancing Musicality}} in {{Symbolic Music Generation}} with {{Large Language Model Training Paradigms}}}
+      \field{urlday}{21}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2502.18008
+      \endverb
+      \verb{eprint}
+      \verb 2502.18008
+      \endverb
+      \verb{file}
+      \verb /home/fmoss/Zotero/storage/H5YK629Y/Wang et al. - 2025 - NotaGen Advancing Musicality in Symbolic Music Generation with Large Language Model Training Paradi.pdf;/home/fmoss/Zotero/storage/4T9JBJKV/2502.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2502.18008
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2502.18008
+      \endverb
+      \keyw{Computer Science - Artificial Intelligence,Computer Science - Sound,Electrical Engineering and Systems Science - Audio and Speech Processing}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
