@@ -6,7 +6,7 @@ This repository is organized as follows:
 
 * **`notagen-pieces/`**: contains chorales generated with NotaGen.
 * **`Open_Day_eval/`**: data and evaluation results gathered during the Open Day experiment.
-* **`poster_ICCCM/`**: analysis notebooks and PDFs for the research poster presented at ICCCM.
+* **`poster/`**: analysis notebooks and PDFs for the research poster presented at ICCCM.
 
 ---
 
