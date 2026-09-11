@@ -26,6 +26,7 @@
 \usepackage{adjustbox}
 \usepackage{qrcode}
 \usepackage[backend=biber]{biblatex}
+\renewcommand*{\bibfont}{\small}
 \addbibresource{references.bib}
 \usepackage{wrapfig}
 \usepackage{tikz-qtree}
@@ -37,7 +38,7 @@
 
 \title{Human vs. AI in Symbolic Music: \\ \huge An Online Listening Study on Bach-Style Chorales}
 \author{
-    Jason Ackermann, Ricarda Ernsperger, \& Fabian C. Moss \\[0.1em]
+    Jason Ackermann, Ricarda Ernsperger \& Fabian C. Moss \\[0.1em]
     {\small
         \texttt{jason.ackermann@stud-mail.uni-wuerzburg.de}, \texttt{fabian.moss@uni-wuerzburg.de}\\[-1em]
         \faGithub~{\texttt{jasonvla}} \quad \quad \faGithub~{\texttt{fabianmoss}}
@@ -50,19 +51,20 @@
 \begin{document}
 
 \begin{frame}[t]
-
   \maketitle
-
+\vspace{-2cm}
   % ==========================================
   % 1. TOP SECTION: INTRO & QUALITATIVE ANALYSIS
   % ==========================================
   \begin{columns}[t]
-    \begin{column}{0.31\textwidth}
+    \begin{column}{0.25\textwidth}
       \begin{block}{Introduction \& Method}
       \vspace{0.5em}
-        We conducted a music perception study to evaluate human vs.\ AI discrimination in Bach-style chorales. Participants ($N=295$) listened to \textbf{20 isolated musical phrases} and categorized each as \textbf{AI}- or \textbf{human-composed}. 
-        
-        AI snippets were generated using \textit{NotaGen} \cite{notagen}, a state-of-the-art symbolic music generation model. All musical snippets (both human and AI) were manually curated. Participation was open to the public with \textbf{no prior music qualification required}. Prior to and following the experiment, we collected metadata such as age, musical background, and self-reported confidence levels in order to better contextualize participant performance.
+        We conducted a music perception study to evaluate human vs.\ AI discrimination in Bach-style chorales. 
+        Participants ($n=295$) listened to \textbf{20 isolated musical phrases} and categorized each as \textbf{AI}- or \textbf{human-composed}.
+        AI snippets were generated using \textit{NotaGen} \cite{notagen}, a state-of-the-art symbolic music generation model. All musical snippets (both human and AI) were manually curated. 
+        Participation was open to the public with \textbf{no prior music qualification required}. 
+        Prior to and following the experiment, we collected metadata such as age, musical background, and self-reported confidence levels in order to better contextualize participant performance.
       \end{block}
     \end{column}
     \hfill
@@ -97,19 +99,19 @@
   \end{block}
 \end{column}
     \hfill
-    \begin{column}{0.31\textwidth}
+    \begin{column}{0.29\textwidth}
       \begin{block}{Overview and Results}
         \textbf{Participant Overview}
         \begin{itemize}
-          \item \textbf{Sample Size:} $N = 295$ participants (primarily German, aged 15--86).
+          \item \textbf{Sample Size:} $n = 295$ participants (primarily German, aged 15--86).
           \item \textbf{Musical Background:} $\approx 90\%$ play an instrument; $>50\%$ sing in a choir.
           \item \textbf{AI Usage:} $\approx 50\%$ use AI multiple times per week.
         \end{itemize}
 
         \vspace{0.3em}
-
+      \end{block}
         \vspace{0.3em}
-        \begin{exampleblock}{Participant Feedback$^1$}
+        \begin{block}{Participant Feedback$^1$}
           \small
           \begin{itemize}
             \item \textit{"frighteningly difficult \twemoji{1fae0}"}
@@ -121,7 +123,7 @@ compositions from human compositions."}
             \item \textit{"It's really exciting because it's really difficult to decide whether it was Al or human after hearing it
 only once. Sometimes I would have needed it a second time."}
           \end{itemize}
-        \end{exampleblock}
+
       \end{block}
       \vfill
       {\scriptsize $^1$Quotes were translated from German to English}
@@ -130,54 +132,54 @@ only once. Sometimes I would have needed it a second time."}
 
   \vspace{0.5em}
 
-% ==========================================
+  % ==========================================
   % 2. MIDDLE SECTION: SMALLER PLOTS GRID
   % ==========================================
   \begin{columns}[t]
-    \begin{column}{0.47\textwidth}
-      \begin{block}{Age Distribution}
-        \vspace{0.3em}
+    \begin{column}{0.44\textwidth}
+      \begin{block}{Sample Skews Young}
+        \vspace{0.1em}
         \centering
-        \includegraphics[width=0.85\textwidth, height=0.10\textheight, keepaspectratio]{plots/age_dist.png}
-        \par\vspace{0.3em}
-        {\small \textit{Figure 1: Participant age distribution ($N=295$)}}
+        \includegraphics[width=0.85\textwidth, height=0.095\textheight, keepaspectratio]{plots/age_dist.png}
+        \par\vspace{0.15em}
+        {\small \textit{Figure 1: Participant age distribution ($n=295$).}}
       \end{block}
 
-      \vspace{0.8em} % Reduced vertical spacing to fit poster frame
+      \vspace{0.3em}
 
-      \begin{block}{Performance by Musical Experience}
-        \vspace{0.3em}
+      \begin{block}{Accuracy By Musical Experience}
+        \vspace{0.1em}
         \centering
-        \includegraphics[width=0.85\textwidth, height=0.10\textheight, keepaspectratio]{plots/musical_exp.png}
-        \par\vspace{0.3em}
-        {\small \textit{Figure 2: Discrimination accuracy across participants' prior musical experience}}
+        \includegraphics[width=0.85\textwidth, height=0.095\textheight, keepaspectratio]{plots/musical_exp.png}
+        \par\vspace{0.15em}
+        {\small \textit{Figure 2: Discrimination accuracy across participants' prior musical experience.}}
       \end{block}
     \end{column}
 
     \hfill
 
     \begin{column}{0.47\textwidth}
-      \begin{block}{Performance by Choir Experience}
-        \vspace{0.3em}
+      \begin{block}{Choir Singers Outperform Non-Singers}
+        \vspace{0.1em}
         \centering
-        \includegraphics[width=0.85\textwidth, height=0.10\textheight, keepaspectratio]{plots/sings_in_choir.png}
-        \par\vspace{0.3em}
-        {\small \textit{Figure 3: Accuracy comparison by participants' choir experience}}
+        \includegraphics[width=0.85\textwidth, height=0.095\textheight, keepaspectratio]{plots/sings_in_choir.png}
+        \par\vspace{0.15em}
+        {\small \textit{Figure 3: Accuracy comparison by participants' choir experience.}}
       \end{block}
 
-      \vspace{0.8em}
+      \vspace{0.3em}
 
-      \begin{block}{Confidence Shifts}
-        \vspace{0.3em}
+      \begin{block}{Trial Exposure Shifts Confidence}
+        \vspace{0.1em}
         \centering
-        \includegraphics[width=0.89\textwidth, height=0.10\textheight, keepaspectratio]{plots/confid_before_after.png}
-        \par\vspace{0.3em}
-        {\small \textit{Figure 4: Self-reported confidence pre- vs.\ post-trial}}
+        \includegraphics[width=0.89\textwidth, height=0.095\textheight, keepaspectratio]{plots/confid_before_after.png}
+        \par\vspace{0.15em}
+        {\small \textit{Figure 4: Self-reported confidence pre- vs.\ post-trial.}}
       \end{block}
     \end{column}
   \end{columns}
 
-  \vspace{0.8em}
+  \vspace{0.3em}
 
   % ==========================================
   % 3. OVERVIEW PLOT
@@ -185,66 +187,95 @@ only once. Sometimes I would have needed it a second time."}
   \begin{columns}[t]
     \begin{column}{0.47\textwidth}
       \begin{block}{Overview: Performance Per Participant}
-        \vspace{0.3em}
+        \vspace{0.1em}
         \centering
-        \includegraphics[width=\textwidth, height=0.11\textheight, keepaspectratio]{plots/corr_vs_incorr_indiv.png}
-        \par\vspace{0.3em}
-        {\small \textit{Figure 5: Individual participant accuracy scores across all trials}}
+        \includegraphics[width=\textwidth, height=0.10\textheight, keepaspectratio]{plots/corr_vs_incorr_indiv.png}
+        \par\vspace{0.15em}
+        {\small \textit{Figure 5: Individual participant accuracy scores across all trials.}}
       \end{block}
     \end{column}
 
     \hfill
 
     \begin{column}{0.47\textwidth}
-      \begin{block}{Stimuli Discrimination Accuracy}
-        \vspace{0.3em}
+      \begin{block}{Stimulus Difficulty Varies}
+        \vspace{0.1em}
         \centering
-        \includegraphics[width=0.85\textwidth, height=0.11\textheight, keepaspectratio]{plots/stimuli_comp.png}
-        \par\vspace{0.3em}
-        {\small \textit{Figure 6: Overview of individual stimulus discrimination. Left plot shows AI snippets. Right plot shows human-composed snippets.}}
+        \includegraphics[width=0.85\textwidth, height=0.10\textheight, keepaspectratio]{plots/stimuli_comp.png}
+        \par\vspace{0.15em}
+        {\small \textit{Figure 6: Overview of individual stimulus discrimination. Left plot shows AI snippets. \\ Right plot shows human-composed snippets.}}
       \end{block}
     \end{column}
   \end{columns}
 
-  \vfill 
-  
-  \begin{columns}[c]
+  \vspace{-0.3em}
 
-    \begin{column}{0.40\textwidth}
+  % ==========================================
+  % 4. LIMITATIONS & FUTURE WORK
+  % ==========================================
+  \begin{block}{\hspace{0.5em}Limitations and Future Work}
+    \vspace{-0.5em}
+    \small
+    \begin{columns}[t]
+      \begin{column}{0.48\textwidth}
+        \begin{itemize}
+          \setlength\itemsep{0em}
+          \item MIDI playback may lead to artifact bias.
+          \item Potential selection bias in chosen stimuli.
+          \item Lack of visual sheet music representation.
+        \end{itemize}
+      \end{column}
+      \begin{column}{0.48\textwidth}
+        \begin{itemize}
+          \setlength\itemsep{0em}
+          \item Comparison with other symbolic music generation models (AI vs. AI / AI vs. Human)
+          \item Implement longer musical stimuli
+          \item Expand survey towards more "artistic" musical genres
+        \end{itemize}
+      \end{column}
+    \end{columns}
+    \vspace{0.1em}
+  \end{block}
+
+  \vfill 
+  \vspace{-1.8cm}
+  \begin{columns}[t]
+
+    \begin{column}{0.4\textwidth}
       \begin{block}{References}
-        \scriptsize
-        \setlength\bibitemsep{1pt}
-        \printbibliography[heading=none]
+        \vspace{0.5em}
+        \printbibliography
       \end{block}
     \end{column}
 
-    \hfill
+
 
 % --- COLUMN 2: QR CODE & EXPERIMENT ---
-\begin{column}{0.40\textwidth}
+    \hspace*{-0.5cm}
+\begin{column}{0.4\textwidth}
   \begin{block}{Try the Experiment}
-    \vspace{0.5em}
-    \begin{minipage}[c]{0.48\textwidth} % Increased from 0.38 to enlarge the QR code
-    \vspace{0.3em}
+    \vspace{1em}
+    \begin{minipage}[c]{0.48\textwidth}
       \centering
-      \qrcode[height=6cm]{https://jasonvla.github.io/ai-chorales_website/} 
+      \qrcode[height=5cm]{https://jasonvla.github.io/ai-chorales_website/}
     \end{minipage}%
-    \hfill
-    \begin{minipage}[c]{0.48\textwidth} % Decreased from 0.58 to balance the block
-      \small
-      \textbf{Can you distinguish AI from human-composed?}\\[0.3em]
-      $\leftarrow$ Scan to test your skills in our study\\[0.2em]
-      \href{https://jasonvla.github.io/ai-chorales_website/}{\texttt{\scriptsize jasonvla.github.io/ai-chorales\_website}}
+    \hspace*{-3cm}
+    \begin{minipage}[c]{0.48\textwidth}
+      \centering
+      \textbf{Can you distinguish AI from human-composed?}\\[-0.2em]
+      $\leftarrow$ Scan to test your skills\\[-0.2em]
+      \href{https://jasonvla.github.io/ai-chorales_website/}{\texttt{\small jasonvla.github.io/ai-chorales\_website}}
     \end{minipage}
-    \vspace{0.3em}
+    \vspace{0.1em}
   \end{block}
 \end{column}
 
     \hfill
 
     % --- COLUMN 3: INSTITUTIONAL LOGO ---
-    \begin{column}{0.14\textwidth}
-    \vspace{6em}
+    \begin{column}{0.1\textwidth}
+    \vspace{4.5em}
+    \hspace*{0.1em}
       \centering
       \includegraphics[width=\linewidth, keepaspectratio]{unilogo_Vektor_CMYK-eps-converted-to.pdf}
     \end{column}
